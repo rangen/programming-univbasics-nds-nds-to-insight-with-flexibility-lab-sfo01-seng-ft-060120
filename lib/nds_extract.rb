@@ -89,7 +89,6 @@ def create_hash_with_director_name(director_hash)
     movies_list[index][:director_name] = director_name
     index += 1
   end
-  puts movies_list
   movies_list
 end
 
