@@ -71,7 +71,7 @@ def movies_with_directors_set(source)
   with_directors_set = {}
 
   while index < source.length
-
+    newHash = {:director_name = source[index][:name], :movies = source[index][:movies]}
     index += 1
   end
   with_directors_set
