@@ -89,7 +89,7 @@ def create_hash_with_director_name(director_hash)
     movies_list[index][]:director_name] = director_name
     index += 1
   end
-
+  movies_list
 end
 
 # ----------------    End of Your Code Region --------------------
