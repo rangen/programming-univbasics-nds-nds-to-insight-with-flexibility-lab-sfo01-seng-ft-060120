@@ -69,7 +69,7 @@ def movies_with_directors_set(source)
   # to have a :director_name key added to it.
   index = 0
   with_directors_set = []
-
+  pp source[0]
   while index < source.length
     newHash = {:director_name => source[index][:name], :movies => source[index][:movies]}
     with_directors_set << newHash
