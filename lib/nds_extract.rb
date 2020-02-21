@@ -71,7 +71,7 @@ def movies_with_directors_set(source)
   with_directors_set = {}
 
   while index < source.length
-    
+
     index += 1
   end
   with_directors_set
