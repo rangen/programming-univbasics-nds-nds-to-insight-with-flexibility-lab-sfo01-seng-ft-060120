@@ -46,7 +46,7 @@ end
 
 
 def gross_per_studio(collection)
-  
+
   per_studio = Hash.new(0)
   index = 0
   while index < collection.length
