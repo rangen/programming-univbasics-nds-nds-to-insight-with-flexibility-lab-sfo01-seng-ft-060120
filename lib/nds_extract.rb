@@ -52,7 +52,7 @@ def movies_with_director_key(name, movies_collection)
   index = 0
 
   while index < movies_collection.length
-    collection_with_name << flatten_a_o_a(movie_with_director_name(name, movies_collection[index]))
+    collection_with_name << movie_with_director_name(name, movies_collection[index])
     index += 1
   end
   collection_with_name
