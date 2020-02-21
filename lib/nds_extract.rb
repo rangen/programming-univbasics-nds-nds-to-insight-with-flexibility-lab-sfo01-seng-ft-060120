@@ -71,7 +71,7 @@ def movies_with_directors_set(source)
   with_directors_set = []
 
   while index < source.length
-    newHash = create_hash_with_director(source[index])
+    newHash = create_hash_with_director_name(source[index])
     with_directors_set << newHash
     index += 1
   end
