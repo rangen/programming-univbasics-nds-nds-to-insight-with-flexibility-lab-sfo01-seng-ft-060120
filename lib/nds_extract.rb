@@ -79,6 +79,17 @@ def movies_with_directors_set(source)
 
 end
 
+def create_hash_with_director_name(director_hash)
+  index = 0
+  director_name = director_hash[:director_name]
+  with_director_names = {}
+  while index < director_hash.length
+
+    index += 1
+  end
+
+end
+
 # ----------------    End of Your Code Region --------------------
 # Don't edit the following code! Make the methods above work with this method
 # call code. You'll have to "see-saw" to get this to work!
