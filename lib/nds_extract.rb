@@ -81,8 +81,10 @@ end
 
 def create_hash_with_director_name(director_hash)
   index = 0
-  director_name = director_hash[:director_name]
   with_director_names = {}
+
+  director_name = director_hash[:director_name]
+  movies_list = director_hash[:movies]
   while index < director_hash.length
 
     index += 1
