@@ -71,8 +71,7 @@ def movies_with_directors_set(source)
   with_directors_set = []
 
   while index < source.length
-    newHash = {:director_name => source[index][:name], :movies => source[index][:movies]}
-    puts "New Hash : #{newHash}"
+    newHash = create_hash_with_director(source[index])
     with_directors_set << newHash
     index += 1
   end
